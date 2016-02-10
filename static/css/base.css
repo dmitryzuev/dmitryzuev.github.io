@@ -52,7 +52,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -63,8 +64,8 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", serif;
-		font-weight: normal; }
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+		font-weight: 300; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
@@ -79,7 +80,7 @@
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
+	strong { font-weight: 600; color: #333; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
@@ -148,14 +149,14 @@
 	  color: #444;
 	  display: inline-block;
 	  font-size: 11px;
-	  font-weight: bold;
+	  font-weight: 600;
 	  text-decoration: none;
 	  text-shadow: 0 1px rgba(255, 255, 255, .75);
 	  cursor: pointer;
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,
@@ -224,7 +225,8 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 		color: #777;
 		margin: 0;
 		width: 210px;
@@ -248,7 +250,7 @@
 	label,
 	legend {
 		display: block;
-		font-weight: bold;
+		font-weight: 600;
 		font-size: 13px;  }
 	select {
 		width: 220px; }
@@ -256,7 +258,7 @@
 		display: inline; }
 	label span,
 	legend span {
-		font-weight: normal;
+		font-weight: 300;
 		font-size: 13px;
 		color: #444; }
 
@@ -265,5 +267,3 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
